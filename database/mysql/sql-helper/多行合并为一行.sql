@@ -1,0 +1,4 @@
+SELECT id,
+	     GROUP_CONCAT(mc ORDER BY id DESC SEPARATOR ',' ) 
+FROM tmp_1
+GROUP BY id
