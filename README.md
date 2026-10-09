@@ -114,7 +114,6 @@
 | [bigdata/HDFS小文件合并/](bigdata/HDFS小文件合并/) | Spark 合并小文件 |
 | [bigdata/HDFS大文件拆分/](bigdata/HDFS大文件拆分/) | 拆分大文件 |
 | [bigdata/elasticsearch/](bigdata/elasticsearch/) | DSL、Logstash、部署 |
-| [bigdata/etl/kettle/](bigdata/etl/kettle/) | Kettle 转换与笔记 |
 | [bigdata/问题处理.md](bigdata/问题处理.md) | 排障备忘 |
 
 - [CDH6.3.0部署/安装文档.md](bigdata/CDH6.3.0部署/安装文档.md) — 集群安装
@@ -124,7 +123,15 @@
 - [elasticsearch/DSL查询.md](bigdata/elasticsearch/DSL查询.md)
 - [elasticsearch/logstash/](bigdata/elasticsearch/logstash/) — MySQL/Oracle ↔ ES
 - [elasticsearch/部署/](bigdata/elasticsearch/部署/) — 安装包 / 集群 / Docker
-- [etl/kettle/base64转图片抽取.ktr](bigdata/etl/kettle/base64转图片抽取.ktr) / [保存转换时无法保存.md](bigdata/etl/kettle/保存转换时无法保存.md)
+
+### ETL
+
+| 路径 | 说明 |
+| --- | --- |
+| [etl/](etl/) | ETL 工具笔记 |
+| [etl/kettle/](etl/kettle/) | Kettle 转换与笔记 |
+
+- [kettle/base64转图片抽取.ktr](etl/kettle/base64转图片抽取.ktr) / [保存转换时无法保存.md](etl/kettle/保存转换时无法保存.md)
 
 ### 运维
 
@@ -185,9 +192,9 @@
 | `database/mysql/` 等 | Miss001/database（私有，附件导入） |
 | `database/domestic/` | Miss001/-（私有，附件中名为 domestic-db） |
 | `database/mycat/` | Miss001/mycat（私有） |
-| `bigdata/`（除 etl/kettle、elasticsearch 官网链接） | Miss001/bigdata（私有） |
+| `bigdata/`（除 elasticsearch 官网链接） | Miss001/bigdata（私有） |
 | `bigdata/elasticsearch/` 官网链接 | Miss001/elasticsearch（私有；DSL 与 bigdata 重复，已去重） |
-| `bigdata/etl/kettle/` | Miss001/kettle（私有） |
+| `etl/kettle/` | Miss001/kettle（私有） |
 | `ops/linux/` | Miss001/linux（私有） |
 | `ops/docker/` | [Miss001/docker](https://github.com/Miss001/docker)（公开） |
 | `ai/dify/`、`ai/ollama/` | [Miss001/ai](https://github.com/Miss001/ai)（公开） |
