@@ -164,6 +164,12 @@
 - [dev/python/环境配置.md](dev/python/环境配置.md)
 - [dev/python/创建新环境-迁移.md](dev/python/创建新环境-迁移.md)
 
+### UI 设计
+
+| 路径 | 说明 |
+| --- | --- |
+| [design/](design/) | UI 设计笔记 |
+
 ### 链接
 
 | 路径 | 说明 |
