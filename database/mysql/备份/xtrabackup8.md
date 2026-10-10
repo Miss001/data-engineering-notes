@@ -444,9 +444,9 @@ mysql状态：关闭
 	xtrabackup --defaults-file=/etc/my.cnf  --socket=/tmp/mysql.sock  --user=bak --password=<PASSWORD> --host=<HOST_IP> --port=3306  --backup --target-dir=/opt/bak --parallel=2
 
 远程服务器未安装mysql的报错情况：
-![五1 1 4 1 1](https://github.com/user-attachments/assets/0ad051bd-de82-4cd7-9549-ce422566adb6)
+![五1 1 4 1 1](assets/五1_1_4_1_1.png)
 
 远程服务器已安装mysql的报错情况：
-![五1 1 4 1 2](https://github.com/user-attachments/assets/ffae79cf-07a8-4e93-93cd-8bbe6b6e8cc9)
+![五1 1 4 1 2](assets/五1_1_4_1_2.png)
 
 
